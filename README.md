@@ -1,3 +1,5 @@
+#Auteurs : Vanney Noah, Cros Esther, Guiberteau Yaelle, Le corre Mallory, Serain Corentin
+
 # Pipeline-pour-l-analyse-des-maladies-mito
 
 Le pipeline a pour objectif de fournir, à partir de la séquence d'ADNmt d'un patient, un maximum d'informations à un médecin habilité afin qu'il réalise un diagnostic le plus précis possible.
@@ -93,4 +95,16 @@ unzip haplogrep3-3.2.1-linux.zip #unzip le zip
 Toutes les indications d'installation sont disponibles sur le GitHub officiel du logiciel : https://github.com/dooguypapua/eKLIPs. Suivez les étapes rigoureusement.
 
 
+Si vous souhaitez executer certaines étapes du pipeline séparemment ou simplement lancer le pipeline manuellement cela est possible depuis bash.
+Cela revient à utiliser chaque outils independamment. Pour cela nous vous renvoyons à la documentation de tous les outils détaillés au dessus.
+
+Dans le cas où vous souhaitez utiliser docker, vous pouvez remplacer toutes les étapes précedentes et leur lancement de manière séparé par les suivantes : 
 #### EXECUTION DU PIPELINE
+Pour l'installation suivre les étapes sur docker desktop. Cela varie selon le système d'exploitation.
+
+Vérfier la présence du docker avec --version
+
+Lancer depuis un terminal les commandes suivantes : 
+- Création de l'image docker : sh mito.sh
+- Vérification du nom du conteneur crée : docker ps 
+- Lancement du conteneur docker : docker run -it (nom du conteneur crée)  /bin/bash
