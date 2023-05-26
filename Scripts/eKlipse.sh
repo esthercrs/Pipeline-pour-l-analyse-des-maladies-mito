@@ -1,1 +1,1 @@
-python2 eKLIPse.py -in /output/soretd.bam -ref NC_012920 
+python2 eKLIPse.py -in /output/sorted.bam -ref NC_012920 
