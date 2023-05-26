@@ -1,6 +1,6 @@
 # Pipeline-pour-l-analyse-des-maladies-mito
 
-Ce pipeline a pour objectif de fournir le maximum d'informations à partir d'une séquence d'ADN mitochondrial d'un patient dans le but de permettre au biologiste de réaliser le meilleur diagnostic possible.
+Le pipeline a pour objectif de fournir, à partir de la séquence d'ADNmt d'un patient, un maximum d'informations à un médecin habilité afin qu'il réalise un diagnostic le plus précis possible.
 
 ## Prérequis
 Afin de pouvoir exécuter le pipeline sur votre poste, vous devez d'abord installer les logiciels suivants :
