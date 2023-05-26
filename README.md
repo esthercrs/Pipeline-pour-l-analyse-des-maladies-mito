@@ -1,9 +1,9 @@
 # Pipeline-pour-l-analyse-des-maladies-mito
 
-Ce pipeline a pour objectif de fournir le maximum d'informations à partir d'une sequence d'ADN mitochondriale d'un patient dans le but de permettre au biologiste réaliser le meilleur diagnostique possible.
+Ce pipeline a pour objectif de fournir le maximum d'informations à partir d'une séquence d'ADN mitochondrial d'un patient dans le but de permettre au biologiste de réaliser le meilleur diagnostic possible.
 
 #Prérequis
-Afin de pouvoir exécuter le pipeline sur votre poste, vous devez d'abord installer les logiciels suivants:
+Afin de pouvoir exécuter le pipeline sur votre poste, vous devez d'abord installer les logiciels suivants :
 
 * python 2.7
 * Java
@@ -17,7 +17,7 @@ Afin de pouvoir exécuter le pipeline sur votre poste, vous devez d'abord instal
 
 
 #Installation on Ubuntu
-Note: Avant les installations par apt-get install, penser à realiser un apt-get update pour mettre à jour le système.
+Note : Avant les installations par apt-get install, pensez à réaliser un apt-get update pour mettre à jour le système.
 
 ### PYTHON 2.7
 $ sudo apt install python2
@@ -90,7 +90,7 @@ unzip haplogrep3-3.2.1-linux.zip #unzip le zip
 
 ### eKlipse
 
-Toutes les indications d'installation sont disponibles sur le github officiel du logiciel : https://github.com/dooguypapua/eKLIPs. Suivre les étapes rigoureusement.
+Toutes les indications d'installation sont disponibles sur le GitHub officiel du logiciel : https://github.com/dooguypapua/eKLIPs. Suivez les étapes rigoureusement.
 
 
 #### EXECUTION DU PIPELINE
