@@ -2,7 +2,7 @@
 
 Ce pipeline a pour objectif de fournir le maximum d'informations à partir d'une séquence d'ADN mitochondrial d'un patient dans le but de permettre au biologiste de réaliser le meilleur diagnostic possible.
 
-# Prérequis
+## Prérequis
 Afin de pouvoir exécuter le pipeline sur votre poste, vous devez d'abord installer les logiciels suivants :
 
 * python 2.7
@@ -16,7 +16,7 @@ Afin de pouvoir exécuter le pipeline sur votre poste, vous devez d'abord instal
 * eKlipse
 
 
-# Installation on Ubuntu
+## Installation on Ubuntu
 Note : Avant les installations par apt-get install, pensez à réaliser un apt-get update pour mettre à jour le système.
 
 ### PYTHON 2.7
