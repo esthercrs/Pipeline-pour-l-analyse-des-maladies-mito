@@ -1,3 +1,5 @@
+# Auteurs : Cros Esther, Guiberteau Yaelle, Le corre Mallory, Serain Corentin et Vanney Noah
+
 import pandas as pd #Import des librairies nécessaires
 import mariadb
 import sys
