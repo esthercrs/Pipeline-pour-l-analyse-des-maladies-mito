@@ -32,15 +32,15 @@ $ sudo apt-get -y install bwa
 
 ### SAMTOOLS
 
-$ sudo apt-get install -y libncurses-dev libbz2-dev liblzma-dev #telecharger les librairies necessaires à linstallation de samtools
+$ sudo apt-get install -y libncurses-dev libbz2-dev liblzma-dev #Télécharger les librairies nécessaires à l'installation de samtools
 
-$ cd Downloads/ #Mettez vous dans le repertoir ou vous souhaitez télécharger samtools
+$ cd Downloads/ #Se mettre dans le répertoire où on souhaite télécharger samtools
 
-$ wget https://github.com/samtools/samtools/releases/download/1.12/samtools-1.12.tar.bz2 #telecharger le logiciel
+$ wget https://github.com/samtools/samtools/releases/download/1.12/samtools-1.12.tar.bz2 #Télécharger le logiciel
 
-$ tar xvjf samtools-1.12.tar.bz2 #extraire l'archive telechargé
+$ tar xvjf samtools-1.12.tar.bz2 #Extraire l'archive téléchargée
 
-$ cd samtools-1.12/ #placez vous dans le repertoire du logiciel extrait.
+$ cd samtools-1.12/ #Se placer dans le répertoire du logiciel extrait
 
 $ ./configure
 
@@ -48,15 +48,15 @@ $ make
 
 $ sudo make install
 
-$ export PATH="$PATH:/home/user/Downloads/samtools-1.12" #EXPORTER DANS LE PATH
+$ export PATH="$PATH:/home/user/Downloads/samtools-1.12" #Exporter dans le PATH
 
-$ sudo gedit ~/.bashrc #ouvrir le fichier bashrc
+$ sudo gedit ~/.bashrc #Ouvrir le fichier bashrc
 
-$ export PATH="$PATH:/home/user/Downloads/samtools-1.12" #ajouter cette ligne de commande à la fin du fichier
+$ export PATH="$PATH:/home/user/Downloads/samtools-1.12" #Ajouter cette ligne de commande à la fin du fichier
 
-$ source ~/.bashrc #sauvevarder puis quitter
+$ source ~/.bashrc #Sauvevarder puis quitter
 
-samtools est desormais installé et peut etre executé en tapant la commande $ samtools dans le terminal.
+sSmtools est désormais installé et peut être exécuté en tapant la commande $ samtools dans le terminal.
 
 ### PICARD TOOLS 
 
@@ -74,7 +74,7 @@ java -jar gatk-package-4.2.3.0-local.jar
 
 ### VEP 
 
-suivre les étapes indiquées sur le site officiel de VEP : https://www.ensembl.org/info/docs/tools/vep/script/vep_download.html
+Suivez les étapes indiquées sur le site officiel de VEP : https://www.ensembl.org/info/docs/tools/vep/script/vep_download.html
 
 ### Haplogrep
 
