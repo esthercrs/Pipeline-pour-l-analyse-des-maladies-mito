@@ -8,7 +8,7 @@ OUTPUT_FILE = '/output'
 VEP_FILE = '/ensembl-vep/vep'
 POINT_VEP = '/root/.vep'
 REF_FASTA = '/data/REF.fasta'
-VARIANT_CALL_FILE = '/output/TSVC_variants_IonXpress_011.vcf'
+VARIANT_CALL_FILE = '/output/variantcall.vcf'
 DISEASE_FILE = '/data/disease.vcf'
 ANNO_FILE = '/output/annotation_VEP_Mitomap.csv'
 
